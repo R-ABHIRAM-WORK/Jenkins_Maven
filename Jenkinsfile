@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'MAVEN_HOME' // Make sure this matches the Maven name in Jenkins
+        maven 'Maven' // Changed from 'MAVEN_HOME' to 'Maven'
     }
     stages {
         stage('Build') {
